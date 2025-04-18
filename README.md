@@ -1,6 +1,6 @@
 <!-- PROJECT INTRO -->
 <div align="center">
-  <a href="https://abdullahab120.github.io/Motion-Calculator">
+  <a href="https://abdullahab120.github.io/Motion-calculator">
     <img src="./assets/img/Banner.jpg" alt="Logo" width="400" height="250"> 
   </a>
 
@@ -8,11 +8,11 @@
 
   <h3> This is a Essential Calculator for Physic's Dynamics </h3>
   <p>
-    <a href="https://abdullahab120.github.io/Motion-Calculator"> View Demo </a>
+    <a href="https://abdullahab120.github.io/Motion-calculator"> View Demo </a>
     ·
-    <a href="https://github.com/AbdullahAB120/Motion-Calculator/issues/new?labels=bug&template=bug-report---.md"> Report Bug </a>
+    <a href="https://github.com/AbdullahAB120/Motion-calculator/issues/new?labels=bug&template=bug-report---.md"> Report Bug </a>
     ·
-    <a href="https://github.com/AbdullahAB120/Motion-Calculator/issues/new?labels=enhancement&template=feature-request---.md"> Request Feature </a>
+    <a href="https://github.com/AbdullahAB120/Motion-calculator/issues/new?labels=enhancement&template=feature-request---.md"> Request Feature </a>
   </p>
 </div>
 
