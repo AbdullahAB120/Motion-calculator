@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<title> Motion Calculator </title>
+		
+		<link rel="stylesheet" href="./assets/css/style.css" type="text/css" media="all"/>
+	</head>
+	<body>
+		
+		
+		<main>
+			<!-- U-Velocity Section Starts Here -->
+		  	<section class="u-velocity">
+				<button class="headingBtn"> Initial Velocity </button>
+				<div class="theory">
+		  			<input type="number" class="first" id="vU1" placeholder="v"/>
+		  			<input type="number" class="second" id="aU1" placeholder="a"/>
+		  			<input type="number" class="third" id="tU1" placeholder="t"/>
+		  			<button class="equal" id="eqU1"> = </button>
+		  			<button class="result" id="u1"> u </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="vU2" placeholder="v"/>
+		  			<input type="number" class="second" id="aU2" placeholder="a"/>
+		  			<input type="number" class="third" id="sU2" placeholder="s"/>
+		  			<button class="equal" id="eqU2"> = </button>
+		  			<button class="result" id="u2"> u </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="vU3" placeholder="v"/>
+		  			<input type="number" class="second" id="sU3" placeholder="s"/>
+		  			<input type="number" class="third" id="tU3" placeholder="t"/>
+		  			<button class="equal" id="eqU3"> = </button>
+		  			<button class="result" id="u3"> u </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="aU4" placeholder="a"/>
+		  			<input type="number" class="second" id="sU4" placeholder="s"/>
+		  			<input type="number" class="third" id="tU4" placeholder="t"/>
+		  			<button class="equal" id="eqU4"> = </button>
+		  			<button class="result" id="u4"> u </button>
+				</div>
+		  	</section>
+			<!-- U-Velocity Section Ends Here -->
+			
+			
+			<!-- Velocity Section Starts Here -->
+		  	<section class="velocity">
+				<button class="headingBtn"> Final Velocity </button>
+				<div class="theory">
+		  			<input type="number" class="first" id="uV1" placeholder="u"/>
+		  			<input type="number" class="second" id="aV1" placeholder="a"/>
+		  			<input type="number" class="third" id="tV1" placeholder="t"/>
+		  			<button class="equal" id="eqV1"> = </button>
+		  			<button class="result" id="v1"> v </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uV2" placeholder="u"/>
+		  			<input type="number" class="second" id="aV2" placeholder="a"/>
+		  			<input type="number" class="third" id="sV2" placeholder="s"/>
+		  			<button class="equal" id="eqV2"> = </button>
+		  			<button class="result" id="v2"> v </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uV3" placeholder="u"/>
+		  			<input type="number" class="second" id="sV3" placeholder="s"/>
+		  			<input type="number" class="third" id="tV3" placeholder="t"/>
+		  			<button class="equal" id="eqV3"> = </button>
+		  			<button class="result" id="v3"> v </button>
+				</div>
+		  	</section>
+			<!-- Velocity Section Ends Here -->
+			
+			
+			<!-- Acceleration Section Starts Here -->
+		  	<section class="acceleration">
+				<button class="headingBtn"> Acceleration </button>
+				<div class="theory">
+		  			<input type="number" class="first" id="uA1" placeholder="u"/>
+		  			<input type="number" class="second" id="vA1" placeholder="v"/>
+		  			<input type="number" class="third" id="tA1" placeholder="t"/>
+		  			<button class="equal" id="eqA1"> = </button>
+		  			<button class="result" id="a1"> a </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uA2" placeholder="u"/>
+		  			<input type="number" class="second" id="vA2" placeholder="v"/>
+		  			<input type="number" class="third" id="sA2" placeholder="s"/>
+		  			<button class="equal" id="eqA2"> = </button>
+		  			<button class="result" id="a2"> a </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uA3" placeholder="u"/>
+		  			<input type="number" class="second" id="sA3" placeholder="s"/>
+		  			<input type="number" class="third" id="tA3" placeholder="t"/>
+		  			<button class="equal" id="eqA3"> = </button>
+		  			<button class="result" id="a3"> a </button>
+				</div>
+		  	</section>
+			<!-- Acceleration Section Ends Here -->
+			
+			
+			<!-- Distance Section Starts Here -->
+		  	<section class="distance">
+				<button class="headingBtn"> Distance </button>
+				<div class="theory">
+		  			<input type="number" class="first" id="uS1" placeholder="u"/>
+		  			<input type="number" class="second" id="vS1" placeholder="v"/>
+		  			<input type="number" class="third" id="tS1" placeholder="t"/>
+		  			<button class="equal" id="eqS1"> = </button>
+		  			<button class="result" id="s1"> s </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uS2" placeholder="u"/>
+		  			<input type="number" class="second" id="vS2" placeholder="v"/>
+		  			<input type="number" class="third" id="aS2" placeholder="a"/>
+		  			<button class="equal" id="eqS2"> = </button>
+		  			<button class="result" id="s2"> s </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uS3" placeholder="u"/>
+		  			<input type="number" class="second" id="aS3" placeholder="a"/>
+		  			<input type="number" class="third" id="tS3" placeholder="t"/>
+		  			<button class="equal" id="eqS3"> = </button>
+		  			<button class="result" id="s3"> s </button>
+				</div>
+		  	</section>
+			<!-- Distance Section Ends Here -->
+			
+			
+			<!-- Time Section Starts Here -->
+		  	<section class="time">
+				<button class="headingBtn"> Time </button>
+				<div class="theory">
+		  			<input type="number" class="first" id="uT1" placeholder="u"/>
+		  			<input type="number" class="second" id="vT1" placeholder="v"/>
+		  			<input type="number" class="third" id="aT1" placeholder="a"/>
+		  			<button class="equal" id="eqT1"> = </button>
+		  			<button class="result" id="t1"> t </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="first" id="uT2" placeholder="u"/>
+		  			<input type="number" class="second" id="vT2" placeholder="v"/>
+		  			<input type="number" class="third" id="sT2" placeholder="s"/>
+		  			<button class="equal" id="eqT2"> = </button>
+		  			<button class="result" id="t2"> t </button>
+				</div>
+		  	</section>
+			<!-- Time Section Ends Here -->
+			
+			
+			<!-- Momentum Section Starts Here -->
+		  	<section class="momentum">
+				<button class="headingBtn"> Momentum </button>
+				<div class="theory">
+		  			<input type="number" class="second" id="sUniV" placeholder="s"/>
+		  			<input type="number" class="third" id="tUniV" placeholder="t"/>
+		  			<button class="equal" id="eqUniV"> = </button>
+		  			<button class="result" id="uniV"> v </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="second" id="vUniS" placeholder="v"/>
+		  			<input type="number" class="third" id="tUniS" placeholder="t"/>
+		  			<button class="equal" id="eqUniS"> = </button>
+		  			<button class="result" id="uniS"> s </button>
+				</div>
+				<div class="theory">
+		  			<input type="number" class="second" id="vUniT" placeholder="v"/>
+		  			<input type="number" class="third" id="sUniT" placeholder="s"/>
+		  			<button class="equal" id="eqUniT"> = </button>
+		  			<button class="result" id="uniT"> t </button>
+				</div>
+		  	</section>
+			<!-- Momentum Section Ends Here -->
+			
+			
+			<!-- Essential Section Starts Here -->
+		  	<section class="essential">
+				<button class="headingBtn"> Essential Calculation </button>
+				<div class="theory">
+		  			<input type="number" class="first" id="aAdd" placeholder="A">
+		  			<button class="equal"> + </button>
+		  			<input type="number" class="second" id="bAdd" placeholder="B">
+		  			<button class="equal" id="eqAdd"> = </button>
+		  			<button class="result" id="add"> A + B </button>
+				</div>
+				<div class="theory">
+		          	<input type="number" class="first" id="aSub" placeholder="A">
+		          	<button class="equal"> – </button>
+		          	<input type="number" class="second" id="bSub" placeholder="B">
+		          	<button class="equal" id="eqSub"> = </button>
+		          	<button class="result" id="sub"> A - B </button>
+				</div>
+		        <div class="theory">
+		          	<input type="number" class="first" id="aMul" placeholder="A">
+		          	<button class="equal"> × </button>
+		          	<input type="number" class="second" id="bMul" placeholder="B">
+		          	<button class="equal" id="eqMul"> = </button>
+		          	<button class="result" id="mul"> A × B </button>
+		        </div>
+		        <div class="theory">
+		          	<input type="number" class="first" id="aDiv" placeholder="A">
+		          	<button class="equal"> ÷ </button>
+		          	<input type="number" class="second" id="bDiv" placeholder="B">
+		          	<button class="equal" id="eqDiv"> = </button>
+		          	<button class="result" id="div">.A ÷ B </button>
+		        </div>
+		  	</section>
+		  	<!-- Essential Section Ends Here -->
+		</main>
+  		
+  		
+  		
+  		<script src="./assets/js/main.js"></script>
+  		
+	</body>
+</html>

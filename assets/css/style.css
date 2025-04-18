@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: #fff9a7;
+}
+
+
+main {
+	text-align: center;
+	padding: 20px;
+}
+
+
+.velocity,
+.u-velocity,
+.acceleration,
+.distance,
+.time,
+.momentum,
+.essential {
+	max-width: 450px;
+	background: #c98700;
+	color: #000;
+	margin: 70px auto;
+	padding: 15px 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 5px 5px 20px #000;
+	text-align: center;
+}
+
+.first,
+.second,
+.third,
+.result {
+	width: 17%;
+	height: 40px;
+	background: #feefab;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #454545;
+	border-radius: 5px;
+	margin: 0 2px;
+	box-shadow: inset 1px 1px 5px #000;
+}
+
+.equal {
+	width: 10%;
+	height: 30px;
+	background: #845900;
+	color: #feefab;
+	border: 1px solid #563a00;
+	border-radius: 5px;
+	margin: 5px 3px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.result {
+	width: 22%;
+	margin-left: 3px;
+}
+
+.theory {
+	padding: 5px 0;
+}
+
+.momentum {
+	font-size: 9px;
+}
+.headingBtn {
+	background: #845900;
+	color: #fff8da;
+	margin: 15px 0;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid #563a00;
+	border-radius: 5px;
+	box-shadow: 0 0 7px #000;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+	main {
+		padding: 20px 25%;
+	}
+}
